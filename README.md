@@ -81,31 +81,31 @@ For further demonstration, visit the [Demo pages](demo/)
         <img src="http://danielwinter.at/apple-touch-icon_76x76.png" alt="Logo of Daniel Winter" class="paradeiser_logo">
     </a>
     <a href="#">
-        <div class="paradeiser_icon_canvas">
+        <span class="paradeiser_icon_canvas">
             <img src="img/menu_home.svg" alt="Navigate to Home">
-        </div>
+        </span>
         <span>Home</span>
     </a>
     <a href="#">
-        <div class="paradeiser_icon_canvas">
+        <span class="paradeiser_icon_canvas">
             <img src="img/menu_shop.svg" alt="Navigate to Shop">
-        </div>
+        </span>
         <span>Shop</span>
     </a>
     <a href="#">
-        <div class="paradeiser_icon_canvas">
+        <span class="paradeiser_icon_canvas">
             <img src="img/menu_cart.svg" alt="Navigate to Cart">
-        </div>
+        </span>
         <span>Cart</span>
     </a>
     <a href="#">
-        <div class="paradeiser_icon_canvas">
+        <span class="paradeiser_icon_canvas">
             <img src="img/menu_contact.svg" alt="Navigate to Contact">
-        </div>
+        </span>
         <span>Contact</span>
     </a>
     <!-- and include the dropdown aswell - you need js for this -->
-    <span class="paradeiser_dropdown">
+    <div class="paradeiser_dropdown">
         <div class="paradeiser_icon_canvas">
             <img src="img/menu_overflow.svg" alt="">
         </div>
@@ -115,7 +115,7 @@ For further demonstration, visit the [Demo pages](demo/)
             <li><a href="#">About Us</a></li>
             <li><a href="#">Yolo</a></li>
         </ul>
-    </span>
+    </div>
 </nav>
 ```
 
